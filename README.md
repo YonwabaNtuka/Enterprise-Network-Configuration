@@ -1,31 +1,30 @@
- Enterprise Network Configuration
+Enterprise Network Configuration
 
- Problem
+Problem
 
-Organizations require secure, reliable, and scalable networks that allow devices from different departments to communicate while maintaining security and efficient resource management. Configuring such a network involves implementing VLANs, routing, DHCP, wireless connectivity, and network services.
+Modern organizations require secure and efficient communication between multiple departments while supporting wired and wireless users. Without network segmentation, routing, and centralized services, communication becomes inefficient, insecure, and difficult to manage.
 
  Solution
 
-This project demonstrates the configuration of an enterprise network using Cisco Packet Tracer. The network was configured with VLANs, trunk links, inter-VLAN routing using a Layer 3 switch, EtherChannel, Switchport Security, IPv4 and IPv6 addressing, DHCP services, static routing, wireless connectivity, and DNS/Web server services. The result is a functional network that supports secure communication between multiple network segments and provides automated IP address allocation for connected devices.
+This project demonstrates the implementation of an enterprise network in Cisco Packet Tracer. The network was configured using VLANs, inter-VLAN routing, EtherChannel, DHCP for IPv4 and IPv6, static routing, switchport security, wireless networking, and DNS/Web services to provide secure and reliable communication across multiple network segments.
 
-Technologies Used
+ Network Topology
+
+<img width="1703" height="685" alt="Screenshot 2026-08-04 225939" src="https://github.com/user-attachments/assets/ae6879be-e453-4411-86d4-c2becdd02186" />
+
+
+ Technologies
 
 - Cisco Packet Tracer
 - Cisco IOS
-- IPv4 & IPv6
 - VLANs
 - Inter-VLAN Routing
 - EtherChannel
-- DHCP
+- DHCPv4
+- DHCPv6
+- IPv4 & IPv6
 - Static Routing
+- Switchport Security
 - Wireless Networking
 - DNS
 - Web Server
-
- Skills Demonstrated
-
-- Router and switch configuration
-- Network segmentation
-- Routing and switching
-- Network security
-- Enterprise network troubleshooting
